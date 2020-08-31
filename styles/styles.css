@@ -23,8 +23,6 @@ body canvas{
   text-align: center;
 }
 
-/* .headerRight {
-} */
 
 .header a {
   color: black;
@@ -69,3 +67,12 @@ body canvas{
     float: none;
   }
 }
+
+.project {
+  display: block;
+  max-width:120px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
