@@ -1,18 +1,10 @@
 html {
+  font-size: 100%;
+  box-sizing: border-box;
   font-family: "Courier New", Courier, monospace;
 }
-body canvas{
-  margin: 0;
-  display: flex;
-
-  /* This centers our sketch horizontally. */
-  justify-content: center;
-
-  /* This centers our sketch vertically. */
-  align-items: center;
-}
 .logo {
-   max-width: 200px;
+  max-width: 200px;
   height:auto;
 }
 
@@ -22,7 +14,6 @@ body canvas{
   padding: 20px 10px;
   text-align: center;
 }
-
 
 .header a {
   color: black;
@@ -67,12 +58,3 @@ body canvas{
     float: none;
   }
 }
-
-.project {
-  display: block;
-  max-width:120px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-}
-

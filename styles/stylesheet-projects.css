@@ -1,0 +1,13 @@
+
+body .projectimg {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: center;
+}
+
+.images {
+  width: 150px;
+  height: 150px;
+  padding: 15px;
+}
