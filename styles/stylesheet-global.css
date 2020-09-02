@@ -3,16 +3,25 @@ html {
   box-sizing: border-box;
   font-family: "Courier New", Courier, monospace;
 }
+
+body {
+  background-image: url('../assets/background.png');
+  color: whitesmoke;
+}
+
 .logo {
   max-width: 200px;
   height:auto;
+  align: left;
 }
 
 .header {
+  display: block;
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 20px 10px;
   text-align: center;
+  margin-left: auto;
 }
 
 .header a {
@@ -42,10 +51,10 @@ html {
   color: white;
 }
 
-/* Float the link section to the right */
+/* Float the link section to the right
 .header-right {
   float: right;
-}
+} */
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
