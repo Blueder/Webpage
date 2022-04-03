@@ -44,11 +44,15 @@ body {
 .bodygrid-item {
   display: inline;
   text-align: center;
-  background-color:  #efeff590;
+  background-color:  #efeff580;
   border-radius: 10px;
   margin: 0;
+  transition:  0.3s;
 }
 
+.bodygrid-item:hover {
+  background-color:  #efeff599;
+}
 
 .left-div-items {
   padding: 50px;
@@ -62,10 +66,10 @@ body {
 
 /* Progress Bars*/
 .progress {
-  margin: 50px auto;
+  margin: 10% auto;
   padding: 2px;
   width: 100%;
-  max-width: 500px;
+  max-width: 80%;
   border: 3px solid #08242c;
   height: 1.2em;
 }
@@ -74,7 +78,6 @@ body {
   color: white;
   text-decoration: border="1px";
   height: 100%;
-  width: 0%;
   background-color: #08242c;
 }
 
@@ -101,26 +104,43 @@ body {
 /* ------------------------------------------------------------------------ */
 
 /*Footer*/
-.footing {
-  width:  100%;
-  background-color: #898fa080;
-  font-size: 20px;
-}
 
 .footer-grid {
+  width:  100%;
+  background-color: #efeff580;
+  font-size: 20px;
   display: grid;
   grid-auto-flow: rows;
   grid-template-rows:  auto auto;
   border-radius: 10px;
+  transition:  0.3s;
+}
+
+.footer-grid:hover {
+  background-color:  #efeff599;
 }
 
 .contacts {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
 
+.icons {
+  height: 1.5em;
+  margin: 0 0.5em;
+  opacity: 0.6;
+}
+
+.icons:hover, .email:hover {
+  opacity: 1;
+}
+
+
 .email {
-  color:  lightgray;
+  opacity: 0.6;
+  text-decoration: none;
+  color:  black;
 }
 
 /* Mobile Responsive*/
